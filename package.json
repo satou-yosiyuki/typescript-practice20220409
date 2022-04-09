@@ -1,0 +1,28 @@
+{
+  "name": "typescript-practice20220409",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode=production",
+    "start": "webpack-cli serve --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/satou-yosiyuki/typescript-practice20220409.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/satou-yosiyuki/typescript-practice20220409/issues"
+  },
+  "homepage": "https://github.com/satou-yosiyuki/typescript-practice20220409#readme",
+  "devDependencies": {
+    "husky": "^4.3.8",
+    "ts-loader": "^9.2.8",
+    "typescript": "^4.6.3",
+    "webpack": "^5.72.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.8.1"
+  }
+}
