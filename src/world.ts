@@ -3,9 +3,18 @@ export default class World {
   constructor(message: string) {
     this.message = message;
   }
-  public sayHello(elem: HTMLElement | null) {
+  public sayHello(elem: HTMLElement | null){
     if (elem) {
       elem.innerText = this.message;
     }
+
+
+
+
+
+
+
+
+
   }
 }
